@@ -1,12 +1,7 @@
-<script setup>
-
-    props: {
-        handle: String
-    }
-
-</script>
-
 <template>
 
+    <div>
+        {{ $route.path }}
+    </div>
 
 </template>

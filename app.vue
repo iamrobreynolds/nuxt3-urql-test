@@ -1,8 +1,6 @@
-<script>
-    
-</script>
-
-
 <template>
-    <NuxtPage />
+    <div>
+        <h1>This is from app.vue.</h1>
+        <NuxtPage />
+    </div>
 </template>

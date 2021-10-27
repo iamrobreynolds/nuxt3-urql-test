@@ -3,6 +3,6 @@ import urql from '@urql/vue'
 
 export default defineNuxtPlugin((nuxtApp) => {
     nuxtApp.vueApp.use(urql, {
-        url: 'https://rickandmortyapi.com/api',
-    });
-});
+        url: 'https://rickandmortyapi.com/graphql',
+    })
+})

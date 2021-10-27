@@ -1,7 +1,7 @@
-
-
 <template>
 
-    {{ $route.params.handle }}
+    <div>
+        {{ $route.params.handle }}
+    </div>
 
 </template>
