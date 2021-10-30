@@ -1,0 +1,23 @@
+{
+	collection(handle: "synergy-pro-cornhole-bags") {
+		id
+		title
+		image {
+			originalSrc
+		}
+		description
+		products(first: 250) {
+			edges {
+				cursor
+				node {
+					id
+					title
+					handle
+					metafield(namespace: "meta", key: "model_name") {
+						value
+					}
+				}
+			}
+		}
+	}
+}
