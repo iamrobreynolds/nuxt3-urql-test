@@ -1,9 +1,7 @@
 <template>
 	<div>
 		<Nav />
-
 		<slot name="header" />
-		<slot />
 	</div>
 </template>
 
