@@ -1,14 +1,15 @@
 <template>
-    <div>
-        <Nav />
+	<div>
+		<Nav />
 
-        <slot name="header" />
-        <slot />
-    </div>
+		<slot name="header" />
+
+		<slot />
+	</div>
 </template>
 
 <script>
-export default {
-  layout: "default",
-};
+	export default {
+		layout: 'default',
+	}
 </script>
