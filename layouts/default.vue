@@ -3,7 +3,6 @@
 		<Nav />
 
 		<slot name="header" />
-
 		<slot />
 	</div>
 </template>
